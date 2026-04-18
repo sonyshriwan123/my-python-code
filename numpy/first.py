@@ -71,5 +71,14 @@ import numpy as np
 # print(array[1:4])
 
 # 2D arrays==
-array_2D = np.array([[1,2,3],[4,5,6]])
-print(array_2D[0:2,1:3])
+# array_2D = np.array([[1,2,3],[4,5,6]])
+# print(array_2D[0:2,1:3])
+
+# class a:
+#     def show(self):
+#         print("a")
+# class b(a):
+#     def show(self):
+#         print("b")
+# obj = b()
+# obj.show()
