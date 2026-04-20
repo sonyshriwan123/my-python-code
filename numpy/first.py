@@ -82,3 +82,6 @@ import numpy as np
 #         print("b")
 # obj = b()
 # obj.show()
+
+
+# =======copy & view=============
