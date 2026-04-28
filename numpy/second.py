@@ -87,3 +87,25 @@ import numpy as np
 # x = np.where(arr%2 == 0)
 
 # print(x)
+
+
+# =======normal=
+# x = [1,2,3,4]
+# y = [5,6,7,8]
+# z = []
+# for i ,j in zip(x,y):
+#     z.append(i+j)
+# print(z)
+
+# # ==========with ufunc====
+# x = [1,2,3,4]
+# y = [5,6,7,8]
+# z = np.add(x,y)
+# print(z)   
+
+def myadd(x,y):
+    return x+y
+xyz = np.frompyfunc(myadd,2,2)
+print(xyz([1,2,3,4,5],[5,6,7,8,9])) 
+    
+    

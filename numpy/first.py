@@ -84,4 +84,3 @@ import numpy as np
 # obj.show()
 
 
-# =======copy & view=============
