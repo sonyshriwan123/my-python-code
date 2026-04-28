@@ -103,9 +103,82 @@ import numpy as np
 # z = np.add(x,y)
 # print(z)   
 
-def myadd(x,y):
-    return x+y
-xyz = np.frompyfunc(myadd,2,2)
-print(xyz([1,2,3,4,5],[5,6,7,8,9])) 
-    
+# def myadd(x,y,z):
+#     return x+y+z
+# xyz = np.frompyfunc(myadd,3,1)
+# print(xyz([1,2,3,4,5],[5,6,7,8,9],[10,11,12,13,14])) 
+# print(type(np.add))
+
+
+# print(type(np.subtract))
+# if type(np.subtract) == np.ufunc:
+#     print("subtract is ufunc")
+# else:
+#     print("subtract is not ufunc")
+
+
+# ========dicision=====
+# arr1 = np.array([1,2,3,4,5,6])
+# arr2 = np.array([29,34,45,67,48,27])
+
+# newarr = np.divide(arr1,arr2)
+# print("Division is:", newarr)
+# print(type(np.divide))
+
+
+# # =====subtract=
+# arr1 = np.array([1,2,3,4,5,6])
+# arr2 = np.array([29,34,45,67,48,27])
+
+# newarr = np.subtract(arr1,arr2)
+# print("subtract is:", newarr)
+# print(type(np.subtract))
+
+
+# # ===multiplication==
+# arr1 = np.array([1,2,3,4,5,6])
+# arr2 = np.array([29,34,45,67,48,27])
+
+# newarr = np.multiply(arr1,arr2)
+# print("multiplication is:", newarr)
+# print(type(np.multiply))
+
+
+
+
+#====power==
+
+# arr1 = np.array([1,2,3,4,5,6])
+# arr2 = np.array([1,2,3,4,5,6])
+
+# newarr = np.power(arr1,arr2)
+# print("power is:", newarr)
+# print(type(np.power))
+
+
+# ===mod/ remeinder
+# arr1 = np.array([1,12,35,39,26,31])
+# arr2 = np.array([2,4,6,7,11,9])
+
+# newarr = np.mod(arr1,arr2)
+# print("Reneinder is:", newarr)
+# print(type(np.mod))
+
+# mod/ quotient
+# arr1 = np.array([10, 20, 30, 40, 50, 60])
+# arr2 = np.array([3, 7, 9, 8, 2, 33])
+
+# newarr = np.divmod(arr1, arr2)
+
+# print(newarr)
+
+
+
+
+
+
+# x = "Ayush"
+# print(type(x))
+
+
     
