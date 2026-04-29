@@ -1,0 +1,6 @@
+,Name,age,salary
+0,Tom,20,20000
+1,steve,25,45000
+2,Ricky,24,85000
+3,rohan,26,45000
+4,sohan,30,32000

@@ -31,6 +31,29 @@ import pandas as pd
 # ds = pd.Series(l)
 # print(ds)
 
-data = [1,2,3,4,5,6]
-s = pd.DataFrame(data)
-print(s)
+# data = [1,2,3,4,5,6]
+# s = pd.DataFrame(data)
+# print(s)
+# data = [{'a':1, 'b' : 2}{'a' : 5, 'b': 14,c': 10}]
+# df = pd.DataFrame(Data)
+# print(df)
+
+data = {'Name':['Tom', 'steve','Ricky','rohan', 'sohan'],
+       'age':[20,25,24,26,30],
+       'salary': [20000,45000,85000,45000,32000]}
+df =pd.DataFrame(data)
+# print(df)
+# print(df.head())
+# print(df.tail())
+# print(df.colums)
+# print(df.shape)
+# print(df.rename(columns={'salary' : 'Monthly Salary'},inplace=True))
+# print(df)
+
+# a =df.describe()
+# print(a)
+
+# df.info()
+df.to_csv("xyz.txt")
+# df.to_csv("xyz.txt",index=False)
+# a.to_csv("describe.csv")
