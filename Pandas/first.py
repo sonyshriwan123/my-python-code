@@ -20,3 +20,14 @@ import pandas as pd
 # var = pd.Series(x, index = ['x','y','z','w'])
 # print(var)
 # print("finding the value:", var['z'])
+
+
+# =====second=============
+
+# df = pd.read_csv(r"C:\Users\NIELIT\Downloads\data.csv")
+
+# print(df.to_string()) 
+
+
+
+
