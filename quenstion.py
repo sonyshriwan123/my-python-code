@@ -47,5 +47,5 @@
 # else:
 #     print("number is not armstrong")
 
-odd = list(range(201,501,2))
-print(odd)
+# odd = list(range(201,501,2))
+# print(odd)

@@ -12,4 +12,3 @@
 # s = pd.Series(data)
 # print(s)
 
-df.info()

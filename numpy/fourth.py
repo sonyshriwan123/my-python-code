@@ -16,7 +16,68 @@ import numpy as np
 # newarr = np.cumsum(arr)
 # print("Cumlative summation is", newarr)
 
-import pandas as pd
+
+# ==product====30/04/2026
+# arr = np.array([1,2,3,4,5,6])
+# x = np.prod(arr)
+# print("The Product is :", x)
+
+# product to using two array===
+# arr1 = np.array([1,2,3])
+# arr2 = np.array([4,5,6])
+# x = np.prod([arr1,arr2])
+# print("The Product is:",x)
+
+
+
+# ======two array is using prod() axis
+# arr1 = np.array([1,2,3])
+# arr2 = np.array([4,5,6])
+# x = np.prod([arr1,arr2], axis=1)
+# print("The Product is:",x)
+
+
+# cumulative product()
+# arr3 = np.array([1,2,3])
+# x = np.cumprod(arr3)
+# print("The Cumulative product is:", x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# import pandas as pd
 # l = [14,15,96,99,87]  #create data 
 # ds = pd.Series(l)
 # print(ds)
@@ -38,22 +99,22 @@ import pandas as pd
 # df = pd.DataFrame(Data)
 # print(df)
 
-data = {'Name':['Tom', 'steve','Ricky','rohan', 'sohan'],
-       'age':[20,25,24,26,30],
-       'salary': [20000,45000,85000,45000,32000]}
-df =pd.DataFrame(data)
-# print(df)
-# print(df.head())
-# print(df.tail())
-# print(df.colums)
-# print(df.shape)
-# print(df.rename(columns={'salary' : 'Monthly Salary'},inplace=True))
-# print(df)
+# data = {'Name':['Tom', 'steve','Ricky','rohan', 'sohan'],
+#        'age':[20,25,24,26,30],
+#        'salary': [20000,45000,85000,45000,32000]}
+# df =pd.DataFrame(data)
+# # print(df)
+# # print(df.head())
+# # print(df.tail())
+# # print(df.colums)
+# # print(df.shape)
+# # print(df.rename(columns={'salary' : 'Monthly Salary'},inplace=True))
+# # print(df)
 
-# a =df.describe()
-# print(a)
+# # a =df.describe()
+# # print(a)
 
-# df.info()
-df.to_csv("xyz.txt")
-# df.to_csv("xyz.txt",index=False)
-# a.to_csv("describe.csv")
+# # df.info()
+# df.to_csv("xyz.txt")
+# # df.to_csv("xyz.txt",index=False)
+# # a.to_csv("describe.txt")
