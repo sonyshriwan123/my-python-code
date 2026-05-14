@@ -13,6 +13,21 @@
 import pandas as pd
 
 
+# json file read for pandas================== 
+
+# df = pd.read_json('https://www.w3schools.com/python/pandas/data.js')
+# print(df.head())
+
+# print(df.tail())
+# print(df.head(10))
+
+# print(df.to_string()) 
+
+
+
+
+
+# ===data cleaning is the clearing the data ===
 
 # df = pd.read_csv(r"C:\Users\NIELIT\Downloads\data.csv")
 # # print("orginal:",df.to_string())
@@ -38,13 +53,17 @@ import pandas as pd
 # print("After filling empty cells with differnt values:", df.to_string())
 
 
-df = pd.read_csv(r"C:\Users\NIELIT\Downloads\data.csv")
-# x = df["Calories"].mean()
-# x = df["Calories"].median()
-x = df["Calories"].mode()[0]
-# print("The mean value is:",x)
-# print("The median value is:",x)
-print("The mode value is:",x)
+# df = pd.read_csv(r"C:\Users\NIELIT\Downloads\data.csv")
+# # x = df["Calories"].mean()
+# # x = df["Calories"].median()
+# x = df["Calories"].mode()[0]
+# # print("The mean value is:",x)
+# # print("The median value is:",x)
+# print("The mode value is:",x)
 
-df.fillna({"Calories": x}, inplace = True)
-print(df.to_string())
+# df.fillna({"Calories": x}, inplace = True)
+# print(df.to_string())
+
+
+
+
